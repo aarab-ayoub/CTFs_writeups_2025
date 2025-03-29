@@ -1,3 +1,3 @@
-# CTF
+# TAMUctf 2025
 
-All challenges are from [TamuCTF](https://ctfd.tamuctf.com/).
+This repository is a public archive for the challenges from [TAMUctf 2025](https://ctftime.org/event/2681/).
