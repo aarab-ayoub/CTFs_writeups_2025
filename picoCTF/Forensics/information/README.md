@@ -66,4 +66,4 @@ picoCTF{the_m3tadata_1s_modified}
 
 ## ✍️ Author
 
-Challenge write-up by **your_name_here**
+Challenge write-up by **$ubZ3r0**
