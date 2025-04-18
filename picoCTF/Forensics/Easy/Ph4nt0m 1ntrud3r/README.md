@@ -63,7 +63,9 @@ Command breakdown:
 This approach successfully recovered the complete flag in the correct order.
 
 ## Flag
-*Note: The actual flag value was not provided in the challenge description*
+```
+picoCTF{1t_w4snt_th4t_34sy_tbh_4r_e5e8c78d}
+```
 
 ## Tools Used
 - Wireshark (GUI network analyzer)
