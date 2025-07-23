@@ -160,7 +160,7 @@ print("Flag:", flag)
 
 ## Flag
 
-**`[picoCTF{n3xt_0n30000000000000000000000000899f0192}]`**
+**`picoCTF{n3xt_0n30000000000000000000000000899f0192}`**
 
 ## Key Takeaways
 
