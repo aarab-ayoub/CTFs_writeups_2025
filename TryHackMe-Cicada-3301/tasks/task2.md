@@ -33,12 +33,12 @@ Use Sonic Visualizer to analyze the audio
 - Initially, only the standard audio waveform is visible
 - No obvious hidden content can be seen in the default view
 
-![Sonic Visualizer Initial View](../imgs/t2-s2.png)
-
 ### Step 3: Add Spectrogram Analysis
 - Navigate to **Pane → Add Spectrogram**
 - The spectrogram reveals frequency-domain information over time
 - Hidden visual pattern becomes visible in the spectrogram
+
+![Sonic Visualizer Initial View](../imgs/t2-s2.png)
 
 ### Step 4: Discover the QR Code
 - A QR code pattern is clearly visible in the spectrogram display
