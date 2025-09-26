@@ -22,8 +22,8 @@ Download and unzip the given folder
 
 ## Files Obtained
 After extraction, we obtained 2 files that will be analyzed in the upcoming tasks:
-- File 1: [file1](../data/welcome.jpg)
-- File 2: [file2](../data/3301.wav)
+- File 1: [welcome.jpg](../data/welcome.jpg)
+- File 2: [3301.wav](../data/3301.wav)
 
 ## Tools Used
 - Standard file extraction utility (unzip, 7-Zip, WinRAR, etc.)
