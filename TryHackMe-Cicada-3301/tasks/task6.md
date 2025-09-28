@@ -100,18 +100,29 @@ I:38:1
 ```
 
 **Cipher Format:** `I:chapter:line:position`
-- **Positive numbers:** Count forward in the line
-- **Negative numbers:** Count backward from the end of the line
-- **Forward slashes (/):** Represent spaces in the final message
+- **Position 1:** Always refers to the first letter after the line number
+- **Positive numbers:** Move right from position 1 by the specified amount
+- **Negative numbers:** Move left from position 1 by the specified amount
+- **Forward slashes (/):** Copied directly into the final message (as literal characters)
 
 ### Question 5: What is the link?
 
 By applying the book cipher coordinates to "The Book of Law":
 
-1. Extract each letter according to the coordinates
-2. Use positive integers to go forward in the text
-3. Use negative integers to go backwards in the text
-4. Assemble the letters in sequence
+**Decoding Process:**
+1. For each coordinate `I:chapter:line:position`:
+   - Locate the specified chapter and line
+   - Find position 1 (first letter after the line number)
+   - If position is positive: move right by that many steps from position 1
+   - If position is negative: move left by that many steps from position 1
+2. Forward slashes (/) are copied directly as literal characters
+3. Assemble all characters in sequence
+
+**Examples:**
+- `I:23:-1`: From line 23, position 1, move left by 1 → gets the "3" from line number "23"
+- `I:19:-1`: From line 19, position 1, move left by 1 → gets the "9" from line number "19"  
+- `I:24:-2`: From line 24, position 1, move left by 2 → gets the "2" from line number "24"
+- The `/ /` sequence creates the literal `//` in `https://`
 
 **Final Answer:** `https://bit.ly/39pw2NH`
 
@@ -139,7 +150,8 @@ By applying the book cipher coordinates to "The Book of Law":
 - **Hash Type:** SHA-512 (128 character length)
 - **Reference Book:** The Book of Law by Aleister Crowley
 - **Cipher Method:** Classical book cipher with coordinate system
-- **Position Logic:** Positive (forward), Negative (backward)
+- **Position Logic:** Position 1 = first letter after line number; positive = right, negative = left
+- **Literal Characters:** Forward slashes copied directly to create URL structure
 
 ## Key Learning Points
 - Not all hashes can be cracked with standard wordlists
