@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Cicada Banner](imgs/welcome.png)
+![Cicada Banner](data/welcome.png)
 
 **A Complete Journey Through Cryptography, Steganography, and Digital Forensics**
 
