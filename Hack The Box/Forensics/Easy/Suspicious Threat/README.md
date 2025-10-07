@@ -6,8 +6,8 @@ This repository contains writeups for various Capture The Flag (CTF) challenges 
 
 ## 📋 Table of Contents
 
-- [HackTheBox - Forensics](#hackthebox---forensics)
-  - [Suspicious Threat](#suspicious-threat)
+- [HackTheBox - Forensics](https://app.hackthebox.com/challenges?category=7&sort_type=asc)
+- [Suspicious Threat](https://app.hackthebox.com/challenges/Suspicious%2520Threat)
 
 ---
 
@@ -15,7 +15,7 @@ This repository contains writeups for various Capture The Flag (CTF) challenges 
 
 ### Suspicious Threat
 
-**Difficulty:** [Add difficulty]  
+**Difficulty:** [Easy]  
 **Category:** Forensics
 
 #### Challenge Description
@@ -115,7 +115,7 @@ This challenge demonstrated a classic userland rootkit technique:
 
 ## Author
 
-[Your Name]
+$ubZ3r0
 
 ## License
 
