@@ -15,7 +15,7 @@ This repository contains writeups for various Capture The Flag (CTF) challenges 
 
 ### Suspicious Threat
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
 **Category:** Forensics
 
 #### Challenge Description
