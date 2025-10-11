@@ -1,7 +1,7 @@
 # The Last Dance - Writeup
 
 **Category:** Crypto  
-**Difficulty:** Easy  
+**Difficulty:** Very Easy  
 **Challenge:** The Last Dance
 
 ## Challenge Description
@@ -194,7 +194,7 @@ $ python3 solve.py
 ## Flag
 
 ```
-HTB{und3r_th3_s34_th3r3_l1v3d_4_crypt0_m4st3r}
+HTB{...}
 ```
 
 ## Visual Representation
