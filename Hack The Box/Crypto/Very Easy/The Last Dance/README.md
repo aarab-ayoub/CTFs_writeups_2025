@@ -188,7 +188,7 @@ $ python3 solve.py
 
 [*] Decrypting flag...
 
-[+] FLAG: HTB{und3r_th3_s34_th3r3_l1v3d_4_crypt0_m4st3r}
+[+] FLAG: HTB{...}
 ```
 
 ## Flag
