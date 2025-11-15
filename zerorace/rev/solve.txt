@@ -1,0 +1,29 @@
+KeyForge - Reverse Engineering Challenge
+
+## Files:
+- `KeyForge` - Original UPX-packed binary
+- `KeyForge_clean` - Unpacked binary (1.8MB) ← ANALYZE THIS ONE
+
+## What We Know:
+1. **Prompts for license key** via stdin (reads up to 4096 bytes)
+2. **Validation happens** - all tested inputs return "Invalid format"
+3. **Success message exists**: "License valid!" at offset 0x157049
+4. **Flag prefix found**: "VoidBox{" at offset 0x15702c (incomplete/null-terminated)
+5. **Binary reads itself**: Opens /proc/self/exe and processes data
+
+## Tested Input Patterns (All Invalid):
+- Length variations: 1-50 characters
+- Hex strings, numeric strings  
+- UUID format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+- Dashes, alphanumeric combinations
+
+## To Solve:
+**Load `KeyForge_clean` in Ghidra/IDA/Binary Ninja:**
+1. Find the main() function or entry point
+2. Locate input reading (fgets/read/cin)
+3. Trace validation logic  
+4. Reverse engineer the expected format
+5. Generate/find the correct license key
+6. Run: `echo "CORRECT_KEY" | ./KeyForge_clean`
+
+The flag IS embedded but requires correct validation to extract.
